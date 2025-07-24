@@ -1,20 +1,11 @@
-p {
-  font-family: "Roboto";
-  margin-top: 0px;
-  margin-bottom: 0px;
-}
 .thumbnail {
-  width: 300px;
-  display: block;
+  width: 100%;
 }
-.search-bar {
-  display: block;
-}
-.video-preview {
-  width: 300px;
-  display: inline-block;
-  vertical-align: top;
-  margin-right: 15px;
+.video-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  row-gap: 40px;
+  column-gap: 20px;
 }
 .video-info-grid {
   display: grid;
